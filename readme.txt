@@ -10,7 +10,7 @@ Two main functions are included in this package: emdreduction.m and eigmap.m
 
 [Gs, matrix, setup] = emdreduction(A, ratio)
 
-i.e: {Gs, matrix, setup} = graphreduction(A, 10) % 10X reduction on node
+i.e: {Gs, matrix, setup} = emdreduction(A, 10) % 10X reduction on node
  
 INPUT:
 A : Laplacian matrix of input graph (n-by-n matrix);
@@ -37,6 +37,5 @@ OUTPUT:
 V: Mapped vectors (n-by-k matrix);
 
 REMINDER:
-Since some information of graph reduction is needed for vector mapping process, you need to run the emdreduction.m function first, and then you can use setup variable for vectors mapping.
-You can refer to emd_example.m for an example of using these two functions.
+please check the readmat.m for the example.
 
