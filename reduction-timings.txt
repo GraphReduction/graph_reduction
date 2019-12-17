@@ -1,0 +1,6 @@
+airfoil; 2.035481
+airfoil; 0.171148
+airfoil; 0.238806
+airfoil; 0.100605
+airfoil; 0.052761
+airfoil; 0.057010
